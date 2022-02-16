@@ -1,0 +1,27 @@
+body{
+    color:black;
+    background-color:darkseagreen;
+    font-size: 50px;
+} 
+p {
+    color:white;
+} 
+.box-container{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+    background-color: black;
+    color:black;
+}
+.box-one{
+    background-color:powderblue;
+}
+.box-two{
+    background-color:pink;
+    color:palegoldenrod;
+}
+.box-three{
+    background-color:plum;
+    color:palegoldenrod;
+}
