@@ -1,0 +1,108 @@
+body{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+} 
+p {
+    color:white;
+} 
+.box-container{
+    display: block;
+    text-align: left;
+    padding: 30px;
+    width: 500px;
+}
+
+.navbox{
+    display: flex;
+    width : 60%;
+    background-color: white;
+    color:purple;
+    font-size: 20px;
+    margin-top: 0px;
+    justify-content:right;
+}
+.nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    font-size: 40px;
+}
+.blankflex{
+    display: flex;
+}
+.purplebox{
+    display: flex;
+    height: 500px;
+    width: 40%;
+    background-color: rebeccapurple;
+}
+.whitebox{
+    display: flex;
+    height: 500px;
+    width: 40%;
+    background-color: white;
+}
+
+.imagespecial{
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+.proj-col{
+    width : 50%;
+    height: 100%;
+}
+.long-box{
+    height : 33%;
+    background-color: powderblue;
+    border: 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.short-box{
+    display: flex;
+    height: 25%;
+    background-color: pink;
+    margin-top: 20px;
+    margin-right: 0px;
+    border-radius: 25px;
+}
+.fat-box{
+    display: flex;
+    height: 75%;
+    background-color: plum;
+    color: white;
+    font: 5px;
+    margin-top: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.image-box{
+    display: flex;
+    height: 400px;
+    margin-top: 20px;
+}
+.nav-button {
+    background-color: rebeccapurple;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+  }
+.vert-flex{
+    display:flex;
+    flex-direction: column;
+}
+.about-box{
+    background-color: lightcoral;
+    border-radius: 25px;
+    text-align: center;
+}
+.center-text{
+    text-align: center;
+}
+.contact-box{
+    background-color: lightsalmon;
+}
